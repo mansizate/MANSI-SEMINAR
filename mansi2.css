@@ -1,6 +1,13 @@
 label{
     color: yellowgreen;
 }
-p{
-    background-image: url(moon.jpg);
-}
+body {
+    background-image: url("moon.jpg");
+  }
+  body {
+    background-image: url("moon.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    margin-right: 50px;
+    background-attachment: fixed;
+  }
